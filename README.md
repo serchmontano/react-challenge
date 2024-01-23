@@ -26,6 +26,16 @@ npm run dev
 
 This command will start the Vite development server. Open [http://localhost:5173](http://localhost:5173) to view the application in your browser.
 
+### Running with Docker
+
+If you prefer to run the project locally using Docker, simply execute:
+
+```
+docker-compose up --build
+```
+
+Then, open your browser and navigate to `localhost` on port 80.
+
 ## Building the Project
 
 ### Compile for Production
