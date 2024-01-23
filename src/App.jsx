@@ -27,7 +27,7 @@ function App() {
               if (letter[1]) {
                 return (
                   <span key={index} className="bg-green-700 mx-0.5 px-1">
-                    {letter[0]}                    
+                    {letter[0]}
                   </span>
                 );
               } else {
@@ -62,6 +62,7 @@ function App() {
                   value={firstName}
                   onChange={(e) => setFirstName(e.target.value)}
                   className="bg-gray-800 mt-2 p-2 rounded-md text-white w-full"
+                  autoComplete="off"
                 />
               </div>
 
@@ -75,6 +76,7 @@ function App() {
                   value={lastName}
                   onChange={(e) => setLastName(e.target.value)}
                   className="bg-gray-800 mt-2 p-2 rounded-md text-white w-full"
+                  autoComplete="off"
                 />
               </div>
             </div>
